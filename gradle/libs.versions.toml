@@ -1,0 +1,56 @@
+[versions]
+androidGradlePlugin = "7.4.2"
+androidxActivity = "1.7.0"
+androidxAppCompat = "1.6.1"
+androidxCore = "1.9.0"
+androidxDataStore = "1.1.0-alpha01"
+androidxEspresso = "3.5.0"
+androidxLifecycle = "2.6.0"
+androidMaterial = "1.6.1"
+androidxTestExt = "1.1.4"
+androidxRoom = "2.5.0"
+baseRecyclerViewAdapterHelper = "4.1.4"
+glide = "4.15.1"
+gson = "2.8.9"
+hilt = "2.44"
+ihsanbalLoggingInterceptor = "3.1.0"
+junit4 = "4.13.2"
+kotlin = "1.8.10"
+kotlinxSerializationConverter = "1.0.0"
+kotlinxSerializationJson = "1.5.0"
+materialDialog = "3.3.0"
+matrix = "2.1.0"
+retrofit = "2.9.0"
+utilcodex = "1.31.0"
+
+[libraries]
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidxActivity" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-test-ext = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "androidxTestExt" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspresso" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
+androidx-dataStore = { group = "androidx.datastore", name = "datastore", version.ref = "androidxDataStore" }
+androidx-dataStore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDataStore" }
+androidx-lifecycle-viewModel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidxLifecycle" }
+android-material = { group = "com.google.android.material", name = "material", version.ref = "androidMaterial" }
+baseRecyclerViewAdapterHelper4 = { group = "io.github.cymchad", name = "BaseRecyclerViewAdapterHelper4", version.ref = "baseRecyclerViewAdapterHelper" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+ihsanbal-logging-interceptor = { group = "com.github.ihsanbal", name = "LoggingInterceptor", version.ref = "ihsanbalLoggingInterceptor" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
+material-dialogs-core = { group = "com.afollestad.material-dialogs", name = "core", version.ref = "materialDialog" }
+material-dialogs-lifecycle = { group = "com.afollestad.material-dialogs", name = "lifecycle", version.ref = "materialDialog" }
+utilcodex = { group = "com.blankj", name = "utilcodex", version.ref = "utilcodex" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit2-kotlinx-serialization-converter = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "kotlinxSerializationConverter" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+

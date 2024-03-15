@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ITunes</string>
+    <string name="app_title">iTunes Music</string>
+    <string name="sort_choice">Sorting option</string>
+    <string name="sort_off">Off</string>
+    <string name="sort_by_price">Sort by Price</string>
+    <string name="search_hint">search</string>
+    <string name="network_loading">network loading…</string>
+</resources>
